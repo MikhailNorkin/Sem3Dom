@@ -24,6 +24,9 @@ def spisok(kol_elements):
         sp.append(int(input(f"Введите {i} элемент списка: ")))
     return(sp)    
 
+'''
+нахождение суммы элментов, находящихся на нечетных позициях:
+'''
 def find_sum(sp):
     sum = 0
     for i in sp:
