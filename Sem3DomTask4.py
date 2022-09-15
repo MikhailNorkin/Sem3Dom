@@ -21,7 +21,7 @@ def read_int():
 '''
 def change(number10):
     number2 = ''
-    if number10 = 0:
+    if number10 == 0:
         number2 = 0
     else:    
         while number10 > 0:
