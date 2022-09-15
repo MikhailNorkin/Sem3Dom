@@ -21,9 +21,12 @@ def read_int():
 '''
 def change(number10):
     number2 = ''
-    while number10 > 0:
-        number2 = str(number10%2)+number2
-        number10 = number10//2
+    if number10 = 0:
+        number2 = 0
+    else:    
+        while number10 > 0:
+            number2 = str(number10%2)+number2
+            number10 = number10//2            
     print(number2)
 
 number10 = read_int()
