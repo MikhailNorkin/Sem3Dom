@@ -33,6 +33,6 @@ def print_list(sp):
 import SemLib as name
 kol = name.kolich()  #Введем количество элементов
 area = name.spisok(kol) #Введем список
-new_area = multiplication_list(area)
+new_area = multiplication_list(area) #Найдем произвдение пар чисел
 print_list(new_area)
-
+print()
